@@ -5,7 +5,7 @@ import './section1.css';
 import Link from 'next/link';
 
 const Section1 = () => {
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(true);
   const handleButtonClick = () => {
     if (loggedIn) {
         console.log("Trade action executed.");

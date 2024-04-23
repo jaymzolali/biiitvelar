@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isUser, setIsUser] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(true);
   const [bgColor, setBgColor] = useState('');
 
   const link = loggedIn ? '/home' : '/create';
